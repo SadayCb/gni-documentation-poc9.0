@@ -468,10 +468,10 @@ function is_guaarantee(p_doc_no in varchar2) return number;
 
 **Dependencies:** [Dependency register](dependencies.md).
 
----
-[← Back to Overview](README.md)
-
 **Errors:** [Verified conditions](error-handling.md).
 
 [↑ API Index](#api-index) · [↑ Functional area](#domain-overdraft-and-portfolio-lookup)
+
+---
+[← Back to Overview](README.md)
 
