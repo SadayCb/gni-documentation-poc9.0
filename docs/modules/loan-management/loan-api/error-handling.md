@@ -1,6 +1,6 @@
 # LOAN_API — Error Handling
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Workflows](workflows.md)
+[← Back to Overview](README.md)
 
 This is a curated register of important source-observed validation and processing conditions, not a complete inventory of Oracle exceptions or runtime errors. Conditions are explained in business terms instead of reproducing incomplete dynamic error prefixes. The called error routine `R(...)` is not defined in the supplied package; its exact Oracle error code and propagation contract are not asserted.
 
@@ -77,4 +77,4 @@ Transaction effects must be reviewed per method. For example, `evaluate_limit_am
 - **1** proposed associations excluded because the literal was not verified within an extracted active method segment.
 - This is a curated reference, not a list of all possible Oracle exceptions.
 
-[↑ Overview](README.md)
+[← Back to Overview](README.md)
