@@ -1,6 +1,6 @@
 # LOAN_CATEGORY_API — Dependencies & Integration Map
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Data Model](data-model.md)
+[← Back to Overview](README.md)
 
 ## Scope
 
@@ -49,3 +49,5 @@ SELECT referenced_owner, referenced_name, referenced_type
    AND type = 'PACKAGE BODY'
  ORDER BY referenced_owner, referenced_name;
 ```
+
+[← Back to Overview](README.md)
