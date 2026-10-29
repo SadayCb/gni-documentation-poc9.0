@@ -1,6 +1,6 @@
 # LOAN_API — Data Model & Database Access Register
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Dependencies](dependencies.md) · [Error Handling](error-handling.md)
+[← Back to Overview](README.md)
 
 ## Purpose and provenance
 
@@ -149,3 +149,5 @@ SELECT owner, object_name, object_type
                        'LOAN_OPERATION_HISTORY','LOAN_ACC_TYPES_PR')
  ORDER BY object_name;
 ```
+
+[← Back to Overview](README.md)
