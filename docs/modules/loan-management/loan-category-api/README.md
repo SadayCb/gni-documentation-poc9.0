@@ -50,3 +50,7 @@ flowchart LR
 ```
 
 For detailed conditions and data updates, refer to the evolving [API Reference](api-reference.md).
+
+---
+
+[← Loan Management](../README.md)
