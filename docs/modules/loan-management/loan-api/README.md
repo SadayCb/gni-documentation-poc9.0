@@ -72,4 +72,4 @@ The API is organized into **nine navigation domains**. These categories organize
 | [History, metadata and reversal](api-reference.md#domain-history-metadata-and-reversal) | Records operation metadata and history and supports reversing mapped changes |
 
 
-**GNI Software — LOAN_API Documentation** · [Browse the full API](api-reference.md) · [← Loan Management](../README.md)
+**GNI Software — LOAN_API Documentation** · [← Loan Management](../README.md)
