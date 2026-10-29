@@ -1,6 +1,6 @@
 # LOAN_CATEGORY_API — Data Model & Database Access Register
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Dependencies](dependencies.md)
+[← Back to Overview](README.md)
 
 ## Purpose and scope
 
@@ -44,3 +44,5 @@ erDiagram
 - Physical constraints, indexes and synonym targets require database DDL/metadata checks.
 - Configured SQL (`PARAM_QUERY`) and dynamic dispatch mean that a static table list cannot capture every possible runtime object.
 - Posting via `LOAN_API` can affect further accounting/history objects not directly listed here.
+
+[← Back to Overview](README.md)
