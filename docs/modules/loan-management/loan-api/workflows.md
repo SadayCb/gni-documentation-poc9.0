@@ -1,6 +1,6 @@
 # LOAN_API — Cross-cutting Workflows
 
-[← Documentation Home](README.md) · [API Reference](api-reference.md) · [Data Model](data-model.md) · [Dependencies](dependencies.md)
+[← Documentation Home](README.md)
 
 This page provides a **high-level view** of the main areas where `GAIA.LOAN_API` participates. The diagrams group related public operations for architectural understanding; they **do not** prescribe a fixed sequence of calls or a complete runtime call graph.
 
