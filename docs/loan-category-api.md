@@ -49,4 +49,4 @@ flowchart LR
   L --> D
 ```
 
-For detailed conditions and data updates, refer to the evolving [API Reference](loan-category-api-reference.md).
+**GNI Software — LOAN_API Documentation** · [← Loan Management](./modules/loan-management.md)
