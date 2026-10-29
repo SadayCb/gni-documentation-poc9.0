@@ -1,6 +1,6 @@
 # LOAN_API — Dependencies & Integration Map
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Data Model](data-model.md)
+[← Back to Overview](README.md)
 
 ## Scope
 
@@ -121,4 +121,4 @@ SELECT d.referenced_owner, d.referenced_name, o.status, o.object_type
  ORDER BY d.referenced_name, o.object_type;
 ```
 
-**Unresolved checks:** dynamic references, synonyms, grants, transitive code effects, external network calls, package state and runtime error propagation.
+[← Back to Overview](README.md)
