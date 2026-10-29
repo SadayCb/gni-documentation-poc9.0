@@ -1,6 +1,6 @@
 # LOAN_CATEGORY_API — Workflows
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Data Model](data-model.md)
+[← Back to Overview](README.md)
 
 These diagrams summarize the business intent of **initially reviewed paths**. They are not a complete control-flow map of the long court-decision procedure.
 
@@ -52,3 +52,6 @@ flowchart TD
  D -- Yes --> F[Prepare accounting entry]
  F --> G[Execute collection and record result]
 ```
+
+[← Back to Overview](README.md)
+
