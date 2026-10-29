@@ -1,6 +1,6 @@
 # LOAN_TRANCHE_API — Dependencies & Integration Map
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Data Model](data-model.md)
+[← Back to Overview](README.md)
 
 ## Scope
 
@@ -115,4 +115,4 @@ SELECT d.referenced_owner,
  ORDER BY d.referenced_name;
 ```
 
-**Unresolved environment checks:** dynamic SQL, synonyms and grants, caller-owned transaction boundaries, package state and indirect dependencies. These cannot be established from the supplied package body alone.
+[← Back to Overview](README.md)
