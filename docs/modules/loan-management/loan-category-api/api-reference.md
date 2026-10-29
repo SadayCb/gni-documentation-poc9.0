@@ -1,6 +1,6 @@
 # LOAN_CATEGORY_API — API Reference
 
-[← Overview](README.md) · [Data Model](data-model.md) · [Dependencies](dependencies.md) · [Error Handling](error-handling.md)
+[← Back to Overview](README.md)
 
 **Public declarations:** 14 (11 procedures and 3 functions). Descriptions reflect the supplied package body. The long court-decision routine is summarized by its major business branches; it is not a line-by-line accounting specification.
 
@@ -467,6 +467,9 @@ function is_guaarantee(p_doc_no in varchar2) return number;
 | `p_doc_no` | IN | Loan document number; optionally narrows processing when defaulted to NULL. |
 
 **Dependencies:** [Dependency register](dependencies.md).
+
+---
+[← Back to Overview](README.md)
 
 **Errors:** [Verified conditions](error-handling.md).
 
