@@ -54,3 +54,4 @@ flowchart TD
   C --> D
   R --> D
 ```
+**GNI Software — LOAN_API Documentation** · [← Loan Management](./modules/loan-management.md)
