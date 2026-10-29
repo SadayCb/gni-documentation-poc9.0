@@ -16,11 +16,11 @@
 
 | Page | Description |
 |---|---|
-| [Workflows](loan-tranche-workflows.md) | Visual tranche lifecycle, payments, interest and recovery |
-| [Data Model](loan-tranche-data-model.md) | Tranche/plan/history/configuration tables and relationships |
-| [Dependencies](loan-tranche-dependencies.md) | Shared APIs, KRD2204, product and account configuration |
-| [API Reference](loan-tranche-api-reference.md) | Every public signature, implementation summary, data access, validations, source location |
-| [Error Handling](loan-tranche-error-handling.md) | Common business validations and operational caveats |
+| [Workflows](workflows.md) | Visual tranche lifecycle, payments, interest and recovery |
+| [Data Model](data-model.md) | Tranche/plan/history/configuration tables and relationships |
+| [Dependencies](dependencies.md) | Shared APIs, KRD2204, product and account configuration |
+| [API Reference](api-reference.md) | Every public signature, implementation summary, data access, validations, source location |
+| [Error Handling](error-handling.md) | Common business validations and operational caveats |
 
 ## Functional areas
 
@@ -28,14 +28,14 @@ The **27 public interfaces** are grouped by primary business responsibility. Eac
 
 | Functional area | Purpose | Public methods | Reference |
 |---|---|---:|---|
-| **Tranche lifecycle** | Creation, execution and consolidation of tranche records. | 3 | [View methods](loan-tranche-api-reference.md#domain-tranche-lifecycle) |
-| **Payment schedules** | Generation, conversion and calculation of tranche repayment schedules. | 4 | [View methods](loan-tranche-api-reference.md#domain-payment-schedules) |
-| **Payments and allocation** | Allocation of loan-account payments among tranches and operation execution. | 3 | [View methods](loan-tranche-api-reference.md#domain-payments-and-allocation) |
-| **Interest and penalties** | Interest calculations and overdue penalty calculation inputs. | 3 | [View methods](loan-tranche-api-reference.md#domain-interest-and-penalties) |
-| **Overdue and transit** | Overdue/transit classification, movement processing and corrective postings. | 3 | [View methods](loan-tranche-api-reference.md#domain-overdue-and-transit) |
-| **Dates and loan lookup** | Loan record retrieval and configurable payment/overdue dates. | 4 | [View methods](loan-tranche-api-reference.md#domain-dates-and-loan-lookup) |
-| **History and reversal** | Tranche ledger history, logging, deletion and restoration. | 4 | [View methods](loan-tranche-api-reference.md#domain-history-and-reversal) |
-| **Integration and validation** | APEX view integration and tranche plan consistency checks. | 3 | [View methods](loan-tranche-api-reference.md#domain-integration-and-validation) |
+| **Tranche lifecycle** | Creation, execution and consolidation of tranche records. | 3 | [View methods](api-reference.md#domain-tranche-lifecycle) |
+| **Payment schedules** | Generation, conversion and calculation of tranche repayment schedules. | 4 | [View methods](api-reference.md#domain-payment-schedules) |
+| **Payments and allocation** | Allocation of loan-account payments among tranches and operation execution. | 3 | [View methods](api-reference.md#domain-payments-and-allocation) |
+| **Interest and penalties** | Interest calculations and overdue penalty calculation inputs. | 3 | [View methods](api-reference.md#domain-interest-and-penalties) |
+| **Overdue and transit** | Overdue/transit classification, movement processing and corrective postings. | 3 | [View methods](api-reference.md#domain-overdue-and-transit) |
+| **Dates and loan lookup** | Loan record retrieval and configurable payment/overdue dates. | 4 | [View methods](api-reference.md#domain-dates-and-loan-lookup) |
+| **History and reversal** | Tranche ledger history, logging, deletion and restoration. | 4 | [View methods](api-reference.md#domain-history-and-reversal) |
+| **Integration and validation** | APEX view integration and tranche plan consistency checks. | 3 | [View methods](api-reference.md#domain-integration-and-validation) |
 
 **Total: 27 public methods — 18 procedures and 9 functions.** These are documentation categories, not separate PL/SQL packages.
 
