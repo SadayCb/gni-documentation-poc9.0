@@ -1,6 +1,6 @@
 # LOAN_TRANCHE_API — API Reference
 
-[← Overview](README.md) · [Workflows](workflows.md) · [Data Model](data-model.md) · [Dependencies](dependencies.md) · [Error Handling](error-handling.md)
+[← Back to Overview](README.md)
 
 **Public API:** 27 declarations (18 procedures and 9 functions). Method signatures are retained from the supplied specification. Only public members are listed.
 
@@ -1156,4 +1156,9 @@ procedure do_plan_control(p_document_no in varchar2,
 *Source: supplied package body, lines 6481–6494.*
 
 [↑ API Index](#api-index) · [↑ Functional area](#domain-integration-and-validation)
+
+---
+
+[← Back to Overview](README.md)
+
 
