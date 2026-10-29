@@ -1,6 +1,6 @@
 # LOAN_CATEGORY_API — Error Handling
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Workflows](workflows.md)
+[← Back to Overview](README.md)
 
 A curated list of source-visible business validation and processing conditions, **not** a catalogue of all Oracle exceptions or stable error codes.
 
@@ -29,4 +29,4 @@ A curated list of source-visible business validation and processing conditions, 
 - The code alone does not establish a universal rollback or commit contract for all entry points.
 - Validation and recovery behavior should be confirmed against the deployed environment when this initial reference is finalized.
 
-[↑ Overview](README.md)
+[← Back to Overview](README.md)
