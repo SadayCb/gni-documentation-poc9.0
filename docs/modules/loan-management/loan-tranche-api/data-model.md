@@ -1,6 +1,6 @@
 # LOAN_TRANCHE_API — Data Model & Database Access Register
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Dependencies](dependencies.md) · [Workflows](workflows.md)
+[← Back to Overview](README.md)
 
 ## Purpose and scope
 
@@ -87,3 +87,5 @@ These are observed logical associations, **not** verified foreign-key declaratio
 - Logical joins in the diagram do not establish database constraints, cardinalities or unique identifiers.
 - Account postings may occur through `LOAN_API.do_journal_entry`; distinguish these from direct writes to tranche tables.
 - Validate table/view/synonym types and constraints against the deployed schema before treating this as a physical ERD.
+
+[← Back to Overview](README.md)
