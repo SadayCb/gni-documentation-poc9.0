@@ -54,3 +54,7 @@ flowchart TD
   C --> D
   R --> D
 ```
+
+---
+
+[← Loan Management](../README.md)
