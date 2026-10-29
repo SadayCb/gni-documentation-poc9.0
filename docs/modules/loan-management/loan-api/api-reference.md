@@ -3649,3 +3649,6 @@ function is_online_offer(p_memorandum_id varchar2) return varchar2;
 
 ---
 
+[← Back to Overview](README.md)
+
+---
