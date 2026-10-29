@@ -1,6 +1,6 @@
 # LOAN_TRANCHE_API — Error Handling
 
-[← Overview](README.md) · [API Reference](api-reference.md) · [Workflows](workflows.md) · [Dependencies](dependencies.md)
+[← Back to Overview](README.md)
 
 This is a **curated register of important business validations and processing failures** observed in the supplied package body. It is **not** an exhaustive Oracle error list or a promise of stable message text.
 
@@ -79,4 +79,4 @@ Balance adjustments, payment-plan changes, transaction history and journal entri
 - This is selected coverage, not all possible runtime failures or all messages raised by delegated packages.
 - No Oracle production/test runtime status, error-code contract or transaction rollback semantics were independently verified.
 
-[↑ Overview](README.md)
+[← Back to Overview](README.md)
