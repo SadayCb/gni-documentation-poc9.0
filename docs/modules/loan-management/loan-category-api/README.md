@@ -16,21 +16,21 @@
 
 | Page | Scope |
 |---|---|
-| [Workflows](loan-category-workflows.md) | Primary category, court-decision and closure processing paths |
-| [Data Model](loan-category-data-model.md) | Principal source-visible objects and logical relationships |
-| [Dependencies](loan-category-dependencies.md) | Banking packages, transaction services and IBS data integration |
-| [API Reference](loan-category-api-reference.md) | All public routines, grouped by business responsibility |
-| [Error Handling](loan-category-error-handling.md) | Key validation and processing outcomes |
+| [Workflows](workflows.md) | Primary category, court-decision and closure processing paths |
+| [Data Model](data-model.md) | Principal source-visible objects and logical relationships |
+| [Dependencies](dependencies.md) | Banking packages, transaction services and IBS data integration |
+| [API Reference](api-reference.md) | All public routines, grouped by business responsibility |
+| [Error Handling](error-handling.md) | Key validation and processing outcomes |
 
 ## Functional areas
 
 | Area | Business responsibility | Public methods | API group |
 |---|---|---:|---|
-| **Category orchestration and classification** | Runs configured category jobs and maintains loan category states | 3 | [View](loan-category-api-reference.md#domain-category-orchestration-and-classification) |
-| **Court decisions and accounting** | Applies court decisions and constructs related accounting entries | 3 | [View](loan-category-api-reference.md#domain-court-decisions-and-accounting) |
-| **Charge-off and loan closure** | Executes configured loan closure flows | 2 | [View](loan-category-api-reference.md#domain-charge-off-and-loan-closure) |
-| **Payment collection and legacy IBS** | Collects payments and checks historical IBS payment information | 4 | [View](loan-category-api-reference.md#domain-payment-collection-and-legacy-ibs) |
-| **Overdraft and portfolio lookup** | Checks guarantee loan type and requests overdraft closure | 2 | [View](loan-category-api-reference.md#domain-overdraft-and-portfolio-lookup) |
+| **Category orchestration and classification** | Runs configured category jobs and maintains loan category states | 3 | [View](api-reference.md#domain-category-orchestration-and-classification) |
+| **Court decisions and accounting** | Applies court decisions and constructs related accounting entries | 3 | [View](api-reference.md#domain-court-decisions-and-accounting) |
+| **Charge-off and loan closure** | Executes configured loan closure flows | 2 | [View](api-reference.md#domain-charge-off-and-loan-closure) |
+| **Payment collection and legacy IBS** | Collects payments and checks historical IBS payment information | 4 | [View](api-reference.md#domain-payment-collection-and-legacy-ibs) |
+| **Overdraft and portfolio lookup** | Checks guarantee loan type and requests overdraft closure | 2 | [View](api-reference.md#domain-overdraft-and-portfolio-lookup) |
 
 **Classification note:** these are documentation domains rather than physically separate PL/SQL modules.
 
@@ -49,4 +49,4 @@ flowchart LR
   L --> D
 ```
 
-For detailed conditions and data updates, refer to the evolving [API Reference](loan-category-api-reference.md).
+For detailed conditions and data updates, refer to the evolving [API Reference](api-reference.md).
